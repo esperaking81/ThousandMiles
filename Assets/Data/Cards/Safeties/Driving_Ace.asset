@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb0acaba15c451a828496e5908e419b, type: 3}
+  m_Name: Driving_Ace
+  m_EditorClassIdentifier: Assembly-CSharp::Data.Cards.SafetyCard
+  faceSprite: {fileID: -2176248353977462929, guid: 5518b2db5a0ec4e8988ef5b5b11bbac3, type: 3}
+  label: Driving Ace
+  description: 
+  totalInstanceCount: 1
+  safetyType: 3
+  immuneTo: 03000000

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8067086648a4dbfa332dccae5ff9565, type: 3}
+  m_Name: Hazard_RedLight
+  m_EditorClassIdentifier: Assembly-CSharp::Data.Cards.HazardCard
+  faceSprite: {fileID: -7451478506291174492, guid: af9b72215df4d4171a0b0a9364976bb3, type: 3}
+  label: Red Light
+  description: 
+  totalInstanceCount: 5
+  hazardType: 4

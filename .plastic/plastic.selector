@@ -1,0 +1,4 @@
+repository "ThousandMiles/ThousandMiles@11270634143748@cloud"
+  path "/"
+    br "/main"
+    co "/main"

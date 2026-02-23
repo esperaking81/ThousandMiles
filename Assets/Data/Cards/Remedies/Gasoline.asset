@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0de5d433bc4d1f924fbb706792391e, type: 3}
+  m_Name: Gasoline
+  m_EditorClassIdentifier: Assembly-CSharp::Data.Cards.RemedyCard
+  faceSprite: {fileID: -6988171575061942704, guid: 9f02ce05551284d689dff020d2f3b3bb, type: 3}
+  label: Gasoline
+  description: 
+  totalInstanceCount: 6
+  fixesHazard: 1
+  remedyType: 0
