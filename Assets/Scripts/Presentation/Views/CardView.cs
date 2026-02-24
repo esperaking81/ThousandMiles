@@ -7,10 +7,13 @@ namespace Presentation.Views
 {
     public class CardView : MonoBehaviour
     {
+        [SerializeField] private GameObject wrapper;
         [SerializeField] private SpriteRenderer cardSpriteRenderer;
         [SerializeField] private TextMeshPro topLeftText;
         [SerializeField] private TextMeshPro centerText;
         [SerializeField] private TextMeshPro bottomRightText;
+
+        private BaseCard _card;
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         private void Start()
@@ -18,8 +21,23 @@ namespace Presentation.Views
             cardSpriteRenderer = GetComponent<SpriteRenderer>();
         }
 
+        private void OnMouseEnter()
+        {
+            wrapper.SetActive(false);
+            Vector3 pos = new(transform.position.x, -2, 0);
+            CardViewHoverSystem.Instance.Show(_card, pos);
+        }
+
+        private void OnMouseExit()
+        {
+            CardViewHoverSystem.Instance.Hide();
+            wrapper.SetActive(true);
+        }
+
         public void Setup(BaseCard card)
         {
+            _card = card;
+
             centerText.text = card.label;
             topLeftText.text = card.label;
             bottomRightText.text = card.label;

@@ -191,6 +191,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2869598090066448927}
   - component: {fileID: 9186401203704182542}
+  - component: {fileID: 6009946548218774903}
+  - component: {fileID: 1263784021378956887}
   m_Layer: 0
   m_Name: CardView
   m_TagString: Untagged
@@ -226,10 +228,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd01a1bda20440aaaf6c233174f5c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Presentation.Views.CardView
+  wrapper: {fileID: 7736789104423602418}
   cardSpriteRenderer: {fileID: 7248930204016608204}
   topLeftText: {fileID: 8882622913615407160}
   centerText: {fileID: 3746389723395296557}
   bottomRightText: {fileID: 31383950648588078}
+--- !u!210 &6009946548218774903
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3769855743696289588}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
+  m_Sort3DAs2D: 0
+--- !u!65 &1263784021378956887
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3769855743696289588}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.722947, y: 2.3721943, z: 0.01}
+  m_Center: {x: -0.013902843, y: -0.000000059604645, z: 0}
 --- !u!1 &4846441302268227072
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +708,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -6988171575061942704, guid: 9f02ce05551284d689dff020d2f3b3bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
